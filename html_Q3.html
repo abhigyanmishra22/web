@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <form>
+            <h2 align="center">STUDENT DETAILS</h2>
+            <!-- Creating a Name input box. Here, the "name" attribute containing "myName", "myRole", etc. helps the backend recognize the input value -->
+            <div>
+                Name: <input type="text">
+            </div>
+            <br>
+        
+            <div>
+                Roll No.: <input type="text">
+            </div>
+            <br>
+            <div>
+                Email: <input type="email">
+            </div>
+            <br>
+            <div>
+                Age: <input type="number">
+            </div>
+            <br>
+            
+            <!-- Creating a Gender Radio button in which we can choose only one of the many options -->
+            <div>
+                <!-- Using "lable" tag for choosing the gender -->
+                Gender:
+                <label for="Male"> Male </label> <input type="radio" name="myGender" id="Male">
+                <label for="Female"> Female </label> <input type="radio" name="myGender" id="Female">
+                <label for="Other"> Other </label><input type="radio" name="myGender" id="Other">
+            </div>
+            <br>
+            <div>
+                DOB: <input type="date" name="myDate">
+            </div>
+            <br>
+            <!-- Creating a Hobby checkbox in which we can choose more than one hobby -->
+            <div>
+                Opted Societies: Enactus <input type="checkbox" name=""> Social Responsibility Cell <input type="checkbox" name=""> Placement Cell <input
+                    type="checkbox" name=""> Raaga <input type="checkbox" name=""> Rhapsody <input
+                    type="checkbox" name="">
+                <!-- "checked" attribute is used to make checkbox as checked by default -->
+            </div>
+            <br>
+            <div>
+                Course: <select name="Course">
+                    <option value="">Computer Science (Hons)</option>
+                    <option value="">Electronics (Hons)</option>
+                    <option value="">Management Studies </option>
+                    <option value="">B.Com (Hons)</option>
+                    <option value="">Physics (Hons)</option>
+                    <option value="">Chemistry (Hons)</option>
+                    <option value="">Mathematics (Hons)</option>
+                    <option value="">Botany (Hons)</option>
+                    <option value="">Zoology (Hons)</option>
+                    <option value="">Mathematical Sciences</option>
+                    <option value="">B.A. (Hons) English</option>
+                </select>
+            </div>
+            <br>
+            <!-- Creating a textbox  -->
+            <div>
+                Address: <br><textarea name="myText" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                Upload your Photo: <input type="file">
+            </div>
+            <br>
+            <!-- Creating a Submit button -->
+            <div>
+                <input type="button" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        
+        </form>
+    </body>
+</html>
